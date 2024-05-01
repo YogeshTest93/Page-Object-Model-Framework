@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-01T22:12:31 IST" name="Suite" finished-at="2024-05-01T22:13:26 IST" duration-ms="55889">
+    <groups>
+    </groups>
+    <test started-at="2024-05-01T22:12:31 IST" name="Test" finished-at="2024-05-01T22:13:26 IST" duration-ms="55889">
+      <class name="Tests.WeatherTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:12:31 IST" name="setUp" finished-at="2024-05-01T22:12:37 IST" duration-ms="6136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchFunctionality(java.lang.String)[pri:1, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:12:37 IST" name="testSearchFunctionality" data-provider="getWeatherTestData" finished-at="2024-05-01T22:12:43 IST" duration-ms="5689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi, IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:12:43 IST" name="tearDown" finished-at="2024-05-01T22:12:43 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:12:43 IST" name="setUp" finished-at="2024-05-01T22:12:50 IST" duration-ms="6903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWeatherDetailsVerification()[pri:2, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:12:50 IST" name="testWeatherDetailsVerification" finished-at="2024-05-01T22:12:56 IST" duration-ms="5995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWeatherDetailsVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:12:56 IST" name="tearDown" finished-at="2024-05-01T22:12:56 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:12:56 IST" name="setUp" finished-at="2024-05-01T22:13:02 IST" duration-ms="5616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWeatherInYourCitySection()[pri:3, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:13:02 IST" name="testWeatherInYourCitySection" finished-at="2024-05-01T22:13:09 IST" duration-ms="7615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWeatherInYourCitySection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:13:09 IST" name="tearDown" finished-at="2024-05-01T22:13:10 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:13:10 IST" name="setUp" finished-at="2024-05-01T22:13:15 IST" duration-ms="4995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidCityName()[pri:4, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:13:15 IST" name="testInvalidCityName" finished-at="2024-05-01T22:13:19 IST" duration-ms="4785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCityName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:13:19 IST" name="tearDown" finished-at="2024-05-01T22:13:20 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:13:20 IST" name="setUp" finished-at="2024-05-01T22:13:24 IST" duration-ms="4377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMapsSection()[pri:5, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:13:24 IST" name="testMapsSection" finished-at="2024-05-01T22:13:26 IST" duration-ms="2231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapsSection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.WeatherTest@742ff096]" started-at="2024-05-01T22:13:26 IST" name="tearDown" finished-at="2024-05-01T22:13:26 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.WeatherTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
